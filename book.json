@@ -1,0 +1,146 @@
+{
+    "title": "xinwuyun",
+    "author": "xinwuyun",
+    "description": "xinwuyun 搭建的 Gitbook 个人博客,详情请访问 https://xinwuyun.github.io/",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "links": {},
+    "plugins": [
+        "toc",
+        "headscript",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "splitter",
+        "-sharing",
+        "sharing-plus",
+        "expandable-chapters-small",
+        "anchor-navigation-ex",
+        "edit-link-plus",
+        "code",
+        "chart",
+        "favicon-absolute",
+        "github-buttons",
+        "advanced-emoji",
+        "rss",
+        "sitemap-general",
+        "diff",
+        "simple-mind-map",
+        "hide-element",
+        "audio_image",
+        "mermaid-gb3",
+        "mathjax-pro"
+    ],
+    "pluginsConfig": {
+        
+        "layout": {
+            "scriptPath": "layouts/script.html"
+        },
+        "favicon-absolute": {
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+        },
+        "toc": {
+            "addClass": true,
+            "className": "toc"
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "xinwuyun",
+                    "repo": "xinwuyun.github.io",
+                    "type": "star",
+                    "size": "small"
+                }
+            ]
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper",
+                "linkedin",
+                "pocket",
+                "stumbleupon"
+            ]
+        },
+        "edit-link-plus": {
+            "base": {
+                "xinwuyun.github.io": "https://github.com/xinwuyun/xinwuyun.github.io/edit/main"
+            },
+            "defaultBase": "https://github.com/xinwuyun/xinwuyun.github.io/edit/main",
+            "label": "编辑本页"
+        },
+        "chart": {
+            "type": "c3"
+        },
+        "rss": {
+            "title": "xinwuyun",
+            "description": "xinwuyun静态网站,源码托管于 https://github.com/xinwuyun/xinwuyun.github.io",
+            "author": "xinwuyun",
+            "site_url": "https://xinwuyun.github.io/",
+            "feed_url": "https://xinwuyun.github.io/rss",
+            "managingEditor": "zrwangxdu@outlook.com",
+            "webMaster": "zrwangxdu@outlook.com",
+            "categories": [
+                "markdown",
+                "git",
+                "github",
+                "gitbook",
+                "java",
+                "php"
+            ]
+        },
+        "sitemap-general": {
+            "prefix": "https://xinwuyun.github.io/"
+        },
+        "copyright": {
+            "site": "https://xinwuyun.github.io/",
+            "author": "xinwuyun",
+            "website": "xinwuyun",
+            "copyProtect": false
+        },
+        "mygitalk": {
+            "clientID": "c1986de36a48f4a8fe0e",
+            "clientSecret": "7ebea379f5c29ef2def4e1307590f8ef34039d10",
+            "repo": "xinwuyun.github.io",
+            "owner": "xinwuyun",
+            "admin": [
+                "xinwuyun"
+            ],
+            "distractionFreeMode": false
+        },
+        "hide-element": {
+            "elements": [
+                "a.gitbook-link[href='https://www.gitbook.com']"
+            ]
+        },
+        "simple-mind-map": {
+            "preset": "colorful"
+        },
+        "pluginsConfig": {
+            "mathjax-pro": {
+                "forceSVG": true
+            }
+        }
+    }
+}
