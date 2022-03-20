@@ -31,7 +31,9 @@
         "mathjax-pro"
     ],
     "pluginsConfig": {
-        
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
         "layout": {
             "scriptPath": "layouts/script.html"
         },
