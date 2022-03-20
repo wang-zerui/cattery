@@ -27,7 +27,8 @@
         "simple-mind-map",
         "hide-element",
         "audio_image",
-        "mermaid-gb3"
+        "mermaid-gb3",
+        "latex-codecogs"
     ],
     "pluginsConfig": {
         
