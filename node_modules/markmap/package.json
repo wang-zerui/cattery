@@ -1,0 +1,31 @@
+{
+  "name": "markmap",
+  "version": "0.6.1",
+  "description": "Visualize markdown documents as mindmaps",
+  "scripts": {
+    "start": "shx cp -r examples/data dist && parcel examples/browser/index.html --open",
+    "test": "jest",
+    "dev": "jest --watch --notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dundalek/markmap"
+  },
+  "keywords": [
+    "markdown",
+    "mindmap",
+    "ideamap",
+    "visualization"
+  ],
+  "author": "Jakub Dundalek",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "3.5.6",
+    "remarkable": "1.7.4"
+  },
+  "devDependencies": {
+    "jest": "24.9.0",
+    "parcel-bundler": "1.12.4",
+    "shx": "0.3.2"
+  }
+}
