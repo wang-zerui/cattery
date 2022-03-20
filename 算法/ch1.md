@@ -20,7 +20,6 @@ $$
   架构的类型：
   
   $$
-  
   \begin{cases}C2\ Style：conponent\  \& \ connector\\Pipe-Fliter\ Style:输入\rightarrow 输出\\Repositories\ Style：以某一数据源为中心的操作\end{cases}
   $$
   
