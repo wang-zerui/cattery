@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main  # trigger branch
+env:
+  source_branch: 'main'
 jobs:
   build:
     runs-on: ubuntu-latest
