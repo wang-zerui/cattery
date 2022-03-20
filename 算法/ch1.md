@@ -1,9 +1,7 @@
 # CH1：Introduction
 
 $$
-
 \rightarrow
-
 $$
 
 
