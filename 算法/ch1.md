@@ -80,4 +80,4 @@ issues：
 
 加之主频的提升不大，算法更为重要
 
-1.3.4 Ab
+1.3.4 About course
