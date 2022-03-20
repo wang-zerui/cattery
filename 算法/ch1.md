@@ -1,7 +1,9 @@
 # CH1：Introduction
 
 $$
+
 \rightarrow
+
 $$
 
 
@@ -18,9 +20,12 @@ $$
   ![image-20220319200833490](https://gitee.com/sun-yunqi/img/raw/master/pictureStore/image-20220319200833490.png)
 
   架构的类型：
-  $
+  
+  $$
+  
   \begin{cases}C2\ Style：conponent\  \& \ connector\\Pipe-Fliter\ Style:输入\rightarrow 输出\\Repositories\ Style：以某一数据源为中心的操作\end{cases}
-  $
+  $$
+  
   成熟的模式：逐步产生商业架构
 
   - Java EE
