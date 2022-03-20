@@ -25,6 +25,7 @@
     "gitbook-plugin-hide-element": "^0.0.4",
     "gitbook-plugin-icp": "^0.1.2",
     "gitbook-plugin-mathjax": "^2.0.0",
+    "gitbook-plugin-mathjax-pro": "^0.0.6",
     "gitbook-plugin-mermaid-gb3": "^2.1.0",
     "gitbook-plugin-mygitalk": "^0.2.6",
     "gitbook-plugin-pdf-multi-link": "^2.1.0",
@@ -38,7 +39,6 @@
     "gitbook-plugin-toc": "0.0.2",
     "mathjax": "^2.7.6"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "gitbook serve",
     "build": "gitbook build",
