@@ -17,4 +17,5 @@ jobs:
         token: ${{ secrets.PERSONAL_TOKEN }}
         source_branch: main
         gitbook_pdf: false
+        publish_cname: www.xinwuyun.cloud
 
