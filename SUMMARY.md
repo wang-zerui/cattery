@@ -5,7 +5,11 @@
 ## 开发笔记
 
 + [serverless-devs](serverless/about.md)
-  + 
+
+## 大三下笔记
+
++ [机器学习与数据挖掘](machine-learning/about.md)
+  + [CH3线性模型](machine-learning/ch3.me)
 
 ## 大三上笔记
 

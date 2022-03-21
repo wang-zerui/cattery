@@ -22,3 +22,15 @@ $\omega和b$确定后，模型就确定了
 
 **关键在于：**确定$$f(x)$$和$$y$$的差距
 
+### 均方误差最小化
+
+$$
+\begin{aligned}
+\left(w^{*}, b^{*}\right) &=\underset{(w, b)}{\arg \min } \sum_{i=1}^{m}\left(f\left(x_{i}\right)-y_{i}\right)^{2} \\
+&=\underset{(w, b)}{\arg \min } \sum_{i=1}^{m}\left(y_{i}-w x_{i}-b\right)^{2}
+\end{aligned}
+$$
+
+> $$\omega^*$$和$b^*$，表示$$\omega$$和$$b$$的解
+>
+> 
