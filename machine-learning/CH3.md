@@ -18,5 +18,7 @@ $\omega和b$确定后，模型就确定了
 
 ## 线性回归
 
-**数据集**
+![image-20220321203635446](https://cdn.jsdelivr.net/gh/xinwuyun/pictures@main/2022/03/21/c8618cbaf8f7381b98e36140e31ef562-image-20220321203635446-4a00e0.png)
+
+**关键在于：**确定$$f(x)$$和$$y$$的差距
 
