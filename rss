@@ -4,7 +4,7 @@
         <description><![CDATA[xinwuyun静态网站,源码托管于 https://github.com/xinwuyun/xinwuyun.github.io]]></description>
         <link>https://xinwuyun.github.io/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Mar 2022 11:25:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Mar 2022 09:12:05 GMT</lastBuildDate>
         <atom:link href="https://xinwuyun.github.io/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[xinwuyun]]></author>
         <managingEditor><![CDATA[zrwangxdu@outlook.com]]></managingEditor>
@@ -16,25 +16,425 @@
         <category><![CDATA[java]]></category>
         <category><![CDATA[php]]></category>
         <item>
-            <title><![CDATA[Summary]]></title>
-            <description><![CDATA[算法分析与设计笔记]]></description>
+            <title><![CDATA[xinwuyun的笔记]]></title>
             <link>https://xinwuyun.github.io/</link>
             <guid isPermaLink="true">https://xinwuyun.github.io/</guid>
             <dc:creator><![CDATA[xinwuyun]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[No title]]></title>
-            <link>https://xinwuyun.github.io/算法/about.html</link>
-            <guid isPermaLink="true">https://xinwuyun.github.io/算法/about.html</guid>
+            <link>https://xinwuyun.github.io/serverless/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/serverless/about.html</guid>
             <dc:creator><![CDATA[xinwuyun]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[CH1：Introduction]]></title>
-            <description><![CDATA[$$
-\rightarrow
-$$]]></description>
-            <link>https://xinwuyun.github.io/算法/ch1.html</link>
-            <guid isPermaLink="true">https://xinwuyun.github.io/算法/ch1.html</guid>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[这里指出你最应当完成的一部分习题之题号（若老师没有明确布置、但你又完成了的话，你可以根据个人意愿请老师帮忙检查，或与老师讨论）]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/复习纲领.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/复习纲领.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH1]]></title>
+            <description><![CDATA[image-20220109130115627]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/CH1.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/CH1.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH3]]></title>
+            <link>https://xinwuyun.github.io/compile-prin/CH3笔记.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/CH3笔记.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[填空题]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/填空题.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/填空题.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[Yet another good compile principle note.]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/about.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记1：概述编译相关的基本知识]]></title>
+            <description><![CDATA[在开始说任何东西之前，我们先来大致看一下编译器是怎么工作的——从代码到程序，大概要经过下面这样的步骤——这里用粗浅的语言进行解释，先有个印象即可，后面还会提到]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记1.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记1.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记2：词法分析基础与模式的形式化描述]]></title>
+            <description><![CDATA[词法分析，是词法分析器将源程序转化为线性记号流的过程。该过程中会对各种符号进行分类，比如将变量名换为标识符。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记2.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记2.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记3：有限自动机]]></title>
+            <description><![CDATA[编译，是把人能看懂的代码翻译成机器能看懂的指令（即，机器语言）的过程，说白了核心任务其实就是搞个翻译，把一堆字符串搞成二进制流罢了。想要翻译，就要先搞懂语言的含义，这就需要进行【词法分析、语法分析、语义分析】这三步。词法分析器要干的，就是这第一步的词法分析——读取并识别我们写下的源代码（其实就是一堆字符串）中各个子串或字符，然后把整个源代码转化为一个记号流，以交给后面的语法分析器进行语法分析。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记3.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记3.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记4：从正规式到词法分析器（1）：构造词法分析器的一般步骤、从正规式到 NFA]]></title>
+            <description><![CDATA[在上面的步骤中，我们通过 NFA 构造 DFA 而非直接构造 DFA ，是因为有专门的算法工具来一步步完成从正规式->NFA->DFA->分析器的工作。这样我们就可以省略中间的手工劳动步骤。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记4.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记4.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记5：从正规式到词法分析器（2）：NFA 记号识别、确定化、并行算法、子集法构造DFA]]></title>
+            <description><![CDATA[之前的文章中写过的 “用一个输入字符串在一个 NFA 中逐个尝试各种路径、最终找到一条从初态到终态” 的方法被称为“NFA识别记号的串行方法”，然而这种方法效率着实不高——一条路走不通，要退回去重新走（也就是回溯），从而产生大量的无效计算。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记5.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记5.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记6：从正规式到词法分析器（3）：DFA最小化、词法分析器的构造、Lex 使用示例]]></title>
+            <description><![CDATA[关于星闭包的补充：一个语言被认为是所有可能字的子集。所有可能字的集合可以被认为是所有可能的字符串串接的集合。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记6.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记6.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记7：语法分析（1）语法分析器的任务、语法错误的处理]]></title>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记7.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记7.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记8：语法分析（2）上下文无关文法 CFG]]></title>
+            <description><![CDATA[写在前面：]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记8.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记8.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记9：语法分析树、语法树、二义性的消除]]></title>
+            <description><![CDATA[语法分析树和语法树不是一种东西。习惯上，我们把前者叫做“具体语法树”，其能够体现推导的过程；后者叫做“抽象语法树”，其不体现过程，只关心最后的结果。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记9.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记9.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记10：语言与文法，正规式转CFG，正规式和CFG，文法、语言与自动机]]></title>
+            <description><![CDATA[对语言进行形式化描述的规则叫文法。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记10.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记10.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记11：自上而下语法分析（1）基础概念、左递归和公共左因子处理、递归下降分析（咕咕咕）]]></title>
+            <description><![CDATA[词法分析，是把源程序分析成记号流，识别其中的单词。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记11.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记11.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记12：自上而下语法分析（2）非递归预测分析器、FIRST & FOLLOW 集合计算]]></title>
+            <description><![CDATA[使用预测分析器进行的自上而下分析是非递归的。预测分析器模型其实是一种 PDA（下推自动机，Pushdown Definite Automata），其结构如下图所示]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记12.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记12.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记13：自上而下语法分析（3）构造预测分析表、LL(1) 文法]]></title>
+            <description><![CDATA[预测分析表的作用，是为推导的进行指明方向——我们用当前下推栈栈顶和读写头所指向的符号的组合（即当前的状态），去查询预测分析表，以确定推导的下一步该向着何种方向前进。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记13.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记13.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记14：自下而上语法分析（1）短语、句柄，规约，移进规约分析器的工作模式]]></title>
+            <description><![CDATA[在分析的过程中，每一步都总是尝试在句型中寻找一个能够被替换为产生式左部的子串。就这样一步步向上去替换，最终变成一个开始符号。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记14.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记14.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记15：自下而上语法分析（2）LR 分析基础、LR 分析表、LR(0) 分析表]]></title>
+            <description><![CDATA[LR 分析表和驱动器是 LR 分析的核心。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记15.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记15.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记16：自下而上语法分析（3）构造 DFA、DFA 对下一步分析的指导（有效项目）]]></title>
+            <description><![CDATA[看了前面的内容，我们已经了解到：分析表和驱动器算法，是 LR 分析器的核心。]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记16.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/编译原理笔记16.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[编译原理笔记18：语法制导翻译（1）]]></title>
+            <description><![CDATA[语法：语言的结构（即语言的样子）]]></description>
+            <link>https://xinwuyun.github.io/compile-prin/marscat笔记/【早期草稿】编译原理笔记18.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/compile-prin/marscat笔记/【早期草稿】编译原理笔记18.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数据库笔记]]></title>
+            <link>https://xinwuyun.github.io/database/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/about.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第一章]]></title>
+            <description><![CDATA[image-20220222173209786]]></description>
+            <link>https://xinwuyun.github.io/database/ch1.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch1.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第二章 关系模型]]></title>
+            <description><![CDATA[[toc]]]></description>
+            <link>https://xinwuyun.github.io/database/ch2.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch2.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第三章 SQL]]></title>
+            <description><![CDATA[[TOC]]]></description>
+            <link>https://xinwuyun.github.io/database/ch3.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch3.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH4]]></title>
+            <description><![CDATA[image-20220225013618406]]></description>
+            <link>https://xinwuyun.github.io/database/ch4.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch4.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第五章 高级SQL]]></title>
+            <description><![CDATA[有两个重点]]></description>
+            <link>https://xinwuyun.github.io/database/ch5.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch5.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH7 ER图]]></title>
+            <description><![CDATA[[toc]]]></description>
+            <link>https://xinwuyun.github.io/database/ch7.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch7.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[函数依赖理论]]></title>
+            <description><![CDATA[image-20220228225942821]]></description>
+            <link>https://xinwuyun.github.io/database/ch8.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch8.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH11]]></title>
+            <description><![CDATA[image-20220303225247660]]></description>
+            <link>https://xinwuyun.github.io/database/ch11.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch11.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数据库第十四章]]></title>
+            <description><![CDATA[image-20220305211721066]]></description>
+            <link>https://xinwuyun.github.io/database/ch14.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/ch14.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数据库第十五章]]></title>
+            <description><![CDATA[image-20220306185053559]]></description>
+            <link>https://xinwuyun.github.io/database/CH15.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/CH15.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH16 恢复系统]]></title>
+            <description><![CDATA[由于内部错误事务无法完成]]></description>
+            <link>https://xinwuyun.github.io/database/CH16.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/database/CH16.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[《计算机通信与网络》课程总复习知识点]]></title>
+            <description><![CDATA[suzumiya1]]></description>
+            <link>https://xinwuyun.github.io/computer-network/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/about.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[总线拓扑结构是多点连接，由一条较长的线缆作为主干来连接网络上的所有设备]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH1.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH1.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第二章网络模型]]></title>
+            <description><![CDATA[ISO是组织，OSI是模型]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH2.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH2.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH3 数据和信号]]></title>
+            <description><![CDATA[[toc]]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH3数据与信号.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH3数据与信号.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH4 数字传输]]></title>
+            <description><![CDATA[将数字数据转换为数字信号。]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH4 数字传输.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH4 数字传输.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH5]]></title>
+            <description><![CDATA[digital-to-analog conversion]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH5.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH5.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第6章 带宽利用]]></title>
+            <description><![CDATA[可获得效率]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH6.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH6.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ch10检错与纠错]]></title>
+            <description><![CDATA[| en                                             | ZH_CN          |
+| ---------------------------------------------- | -------------- |
+| Types of errors                                | 差错类型       |
+| Redundancy                                     | 冗余           |
+| Dectection Versus Correction                   | 检错和纠错     |
+| Forward Error Correction Versus Retransmission | 前向纠错和重传 |
+| Coding                                         | 编码           |
+| Modular Arithmetic                             | 模运算         |]]></description>
+            <link>https://xinwuyun.github.io/computer-network/ch10检错与纠错.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/ch10检错与纠错.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[3数据链路控制]]></title>
+            <description><![CDATA[将一组比特位组成帧，一遍帧和帧之间可以识别。]]></description>
+            <link>https://xinwuyun.github.io/computer-network/ch11数据链路控制.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/ch11数据链路控制.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH14 无线局域网WLAN]]></title>
+            <description><![CDATA[80971692_p0]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH14.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH14.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH15 连接局域网、主干网和虚拟局域网]]></title>
+            <description><![CDATA[image-20211224100739026]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH15.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH15.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第四部分网络层]]></title>
+            <description><![CDATA[负责计算机间传输分组]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH19逻辑寻址.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH19逻辑寻址.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH20IP协议]]></title>
+            <description><![CDATA[网络的物理层和数据链路层在本地运行。这两层共同负责网络相邻节点间的数据传递。]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH20IP协议.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH20IP协议.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH21]]></title>
+            <description><![CDATA[#風景 更にちょうふげりおんQ - のうぜん的插画]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH21.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH21.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[CH22 传递、转发和路由选择]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH22 传递、转发和路由选择.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH22 传递、转发和路由选择.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH23]]></title>
+            <description><![CDATA[image-20220314100425032]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH23.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH23.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[1. 域名空间，客户端服务器模式]]></description>
+            <link>https://xinwuyun.github.io/computer-network/application.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/application.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH25 Domain Name System]]></title>
+            <description><![CDATA[image-20220308161443896]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH25.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH25.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH26]]></title>
+            <description><![CDATA[Terminal Network]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH26.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH26.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[CH27]]></title>
+            <description><![CDATA[image-20220308225318815]]></description>
+            <link>https://xinwuyun.github.io/computer-network/CH27.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/CH27.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[《计算机通信与网络》课程总复习知识点]]></title>
+            <description><![CDATA[suzumiya1]]></description>
+            <link>https://xinwuyun.github.io/computer-network/总复习.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/总复习.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[E984174FAFC3950E629BF722701A63C3的副本]]></description>
+            <link>https://xinwuyun.github.io/computer-network/计网期末试题.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/计网期末试题.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[报文、报文段等的区别]]></title>
+            <description><![CDATA[应用层的信息分组，是网络中交换与传输的数据单元，也是网络传输的单元。]]></description>
+            <link>https://xinwuyun.github.io/computer-network/报文、报文段等的区别.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/computer-network/报文、报文段等的区别.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[搭建说明]]></title>
+            <description><![CDATA[相关教程]]></description>
+            <link>https://xinwuyun.github.io/about/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/about/about.html</guid>
             <dc:creator><![CDATA[xinwuyun]]></dc:creator>
         </item>
         <item>
