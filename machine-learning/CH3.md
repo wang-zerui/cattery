@@ -48,3 +48,32 @@ w=\frac{\sum_{i=1}^{m} y_{i}\left(x_{i}-\bar{x}\right)}{\sum_{i=1}^{m} x_{i}^{2}
 b=\frac{1}{m} \sum_{i=1}^{m}\left(y_{i}-w x_{i}\right)
 \end{gathered}
 $$
+
+### 更一般的情形
+
+对于数据集D，样本由d个属性描述，此时我们试图学得
+$$
+f(\boldsymbol{x_i})=\boldsymbol{w}^{\mathrm{T}} \boldsymbol{x_i}+b \text{ 使得 }f(\boldsymbol{x_i})\simeq{y_i}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
