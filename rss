@@ -4,7 +4,7 @@
         <description><![CDATA[xinwuyun静态网站,源码托管于 https://github.com/xinwuyun/xinwuyun.github.io]]></description>
         <link>https://xinwuyun.github.io/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Mar 2022 13:05:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Mar 2022 13:16:45 GMT</lastBuildDate>
         <atom:link href="https://xinwuyun.github.io/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[xinwuyun]]></author>
         <managingEditor><![CDATA[zrwangxdu@outlook.com]]></managingEditor>
@@ -25,6 +25,13 @@
             <title><![CDATA[No title]]></title>
             <link>https://xinwuyun.github.io/serverless/about.html</link>
             <guid isPermaLink="true">https://xinwuyun.github.io/serverless/about.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[机器学习与数据挖掘]]></description>
+            <link>https://xinwuyun.github.io/machine-learning/about.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/machine-learning/about.html</guid>
             <dc:creator><![CDATA[xinwuyun]]></dc:creator>
         </item>
         <item>
