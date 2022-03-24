@@ -19,7 +19,7 @@
     - [第2章 模型评估](machine-learning/pumpkin-book/chapter2/chapter2.md)
     - [第3章 线性模型](machine-learning/pumpkin-book/chapter3/chapter3.md)
     - [第4章 决策树](machine-learning/pumpkin-book/chapter4/chapter4.md)
-    - [第5章 神经网络](machine-learning/pumpkin-book/chapter5/chapter5.md)
+    - [第5章神经网络](machine-learning/pumpkin-book/chapter5/chapter5.md)
     - [第6章 支持向量机](machine-learning/pumpkin-book/chapter6/chapter6.md)
     - [第7章 贝叶斯分类器](machine-learning/pumpkin-book/chapter7/chapter7.md)
     - [第8章 集成学习](machine-learning/pumpkin-book/chapter8/chapter8.md)
