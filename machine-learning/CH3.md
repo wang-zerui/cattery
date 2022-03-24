@@ -55,7 +55,7 @@ $$
 $$
 f(\boldsymbol{x_i})=\boldsymbol{w}^{\mathrm{T}} \boldsymbol{x_i}+b \text{ 使得 }f(\boldsymbol{x_i})\simeq{y_i}
 $$
-
+称为**多元线性回归**
 
 
 
