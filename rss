@@ -4,7 +4,7 @@
         <description><![CDATA[xinwuyun静态网站,源码托管于 https://github.com/xinwuyun/xinwuyun.github.io]]></description>
         <link>https://xinwuyun.github.io/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Mar 2022 13:24:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Mar 2022 12:12:03 GMT</lastBuildDate>
         <atom:link href="https://xinwuyun.github.io/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[xinwuyun]]></author>
         <managingEditor><![CDATA[zrwangxdu@outlook.com]]></managingEditor>
@@ -29,6 +29,13 @@
         </item>
         <item>
             <title><![CDATA[No title]]></title>
+            <description><![CDATA[类似斐波那契，使用了递归]]></description>
+            <link>https://xinwuyun.github.io/leetcode/leetcode.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/leetcode/leetcode.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
             <description><![CDATA[机器学习与数据挖掘]]></description>
             <link>https://xinwuyun.github.io/machine-learning/about.html</link>
             <guid isPermaLink="true">https://xinwuyun.github.io/machine-learning/about.html</guid>
@@ -39,6 +46,13 @@
             <description><![CDATA[由d个属性描述的实例$X=(x_1;x_2;x_3;...;x_d)$。]]></description>
             <link>https://xinwuyun.github.io/machine-learning/CH3.html</link>
             <guid isPermaLink="true">https://xinwuyun.github.io/machine-learning/CH3.html</guid>
+            <dc:creator><![CDATA[xinwuyun]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[0、前言]]></title>
+            <description><![CDATA[​	本文档适合零基础同学复习使用]]></description>
+            <link>https://xinwuyun.github.io/machine-learning/机器学习与数据挖掘重点.html</link>
+            <guid isPermaLink="true">https://xinwuyun.github.io/machine-learning/机器学习与数据挖掘重点.html</guid>
             <dc:creator><![CDATA[xinwuyun]]></dc:creator>
         </item>
         <item>
